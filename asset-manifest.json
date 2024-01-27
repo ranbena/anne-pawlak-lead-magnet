@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anne-pawlak-landing/static/css/main.755cf9d2.css",
+    "main.js": "/anne-pawlak-landing/static/js/main.46300f06.js",
+    "index.html": "/anne-pawlak-landing/index.html",
+    "main.755cf9d2.css.map": "/anne-pawlak-landing/static/css/main.755cf9d2.css.map",
+    "main.46300f06.js.map": "/anne-pawlak-landing/static/js/main.46300f06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.755cf9d2.css",
+    "static/js/main.46300f06.js"
+  ]
+}
