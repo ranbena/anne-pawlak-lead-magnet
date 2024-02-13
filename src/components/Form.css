@@ -4,14 +4,23 @@ form {
   gap: 3px;
 }
 
-input {
+fieldset {
+  border: 0;
+  padding: 0;
+}
+
+legend {
+  margin-bottom: 10px;
+  color: #3240a6;
+  font-size: 12px;
+  font-style: italic;
+}
+
+input[type='text'] {
   outline: none;
   background: #ffffff;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
   box-sizing: border-box;
-  border-radius: 6px;
   margin: 0;
   padding: 8px 11px;
   color: rgba(0, 0, 0, 0.88);
@@ -52,6 +61,7 @@ input {
 }
 
 .button {
+  margin-top: 10px;
   background-color: #e94ead;
 
   &:hover {
@@ -60,5 +70,22 @@ input {
 
   .success & {
     background-color: #52c41a;
+  }
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+
+  input {
+    margin: 3px 0 0 0;
+    border-radius: 0;
+  }
+
+  label {
+    font-size: 12px;
+    text-align: justify;
+    color: #5760a4;
   }
 }

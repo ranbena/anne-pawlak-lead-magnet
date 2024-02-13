@@ -1,11 +1,18 @@
 {
   "fvv": 1,
   "pageHistory": 0,
-  "fbzx": "-5286088063442784875",
+  "fbzx": "-8179649679603294853",
   "action": "e/1FAIpQLSfqraK-2rzLqZOl38WLfdJuoPuxEfvoysCytiDK8nIuYaDhzg",
   "title": "Anne Pawlak",
   "description": null,
   "fields": [
+    {
+      "label": "Full Name",
+      "description": null,
+      "type": "SHORT_ANSWER",
+      "id": "872857641",
+      "required": true
+    },
     {
       "label": "Email Address",
       "description": null,
@@ -14,12 +21,17 @@
       "required": true
     },
     {
-      "label": "Full Name",
+      "label": "Privacy policy",
       "description": null,
-      "type": "SHORT_ANSWER",
-      "id": "872857641",
+      "type": "CHECKBOX",
+      "id": "1918354548",
+      "options": [
+        {
+          "label": "I agree to the privacy policy and automatically register for Anne Pawlak's newsletter with this submission of my email"
+        }
+      ],
       "required": true
     }
   ],
-  "fieldsOrder": { "872857641": 1, "1215295443": 0 }
+  "fieldsOrder": { "872857641": 0, "1918354548": 2, "1215295443": 1 }
 }
