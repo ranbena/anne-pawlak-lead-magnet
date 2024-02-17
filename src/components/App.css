@@ -19,52 +19,52 @@ section {
     81.6555%,
     #ebd9f7 100%
   );
+}
 
-  & > div {
-    display: flex;
-    flex-direction: row;
-    min-height: 560px;
-    height: 100vh;
-  }
+section > div {
+  display: flex;
+  flex-direction: row;
+  min-height: 560px;
+  height: 100vh;
 }
 
 header {
   position: fixed;
+}
 
-  & > div {
-    display: flex;
-    justify-content: flex-end;
-  }
+header > div {
+  display: flex;
+  justify-content: flex-end;
 }
 
 section,
 header {
   width: 100%;
-
-  & > div {
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 0 40px;
-    max-width: 1200px;
-  }
+}
+section > div,
+header > div {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 40px;
+  max-width: 1200px;
 }
 
 .desc {
   background: white;
+}
 
-  & > div {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
+.desc > div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
-  p {
-    color: #9d97ff;
-    font-size: 12px;
-    text-align: left;
-  }
+.desc p {
+  color: #9d97ff;
+  font-size: 12px;
+  text-align: left;
 }
 
 h1 {
@@ -100,15 +100,15 @@ h3 {
   font-size: 26px;
   align-items: center;
   margin-top: 4px;
+}
 
-  svg {
-    fill: #603f8a;
-    transition: fill 0.1s linear;
+.links svg {
+  fill: #603f8a;
+  transition: fill 0.1s linear;
+}
 
-    &:hover {
-      fill: #624dc3;
-    }
-  }
+.links svg:hover {
+  fill: #624dc3;
 }
 
 .visual {
@@ -135,23 +135,23 @@ h3 {
   .main > div {
     flex-direction: column-reverse;
     gap: 30px;
+  }
 
-    .text {
-      width: auto;
+  .main .text {
+    width: auto;
+  }
 
-      .checkbox label {
-        font-size: 12px;
-        line-height: 14px;
-      }
-    }
+  .main .checkbox label {
+    font-size: 12px;
+    line-height: 14px;
+  }
 
-    .visual {
-      flex-shrink: 0;
-      flex-basis: 320px;
-      background-size: contain;
-      background-position: center;
-      background-attachment: scroll;
-    }
+  .main .visual {
+    flex-shrink: 0;
+    flex-basis: 320px;
+    background-size: contain;
+    background-position: center;
+    background-attachment: scroll;
   }
 
   section > div {
@@ -166,19 +166,19 @@ h3 {
   justify-content: space-between;
   gap: 57px;
   width: 100%;
+}
 
-  p {
-    flex: 1;
-    text-align: center;
-    max-width: 260px;
-  }
+.desc .text p {
+  flex: 1;
+  text-align: center;
+  max-width: 260px;
+}
 
-  .checkIcon {
-    display: block;
-    font-size: 40px;
-    margin-bottom: 38px;
-    color: #4c1e64;
-  }
+.desc .text .checkIcon {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 38px;
+  color: #4c1e64;
 }
 
 @media screen and (max-width: 800px) {
@@ -189,34 +189,32 @@ h3 {
   }
 }
 
-.about {
-  & > div {
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'image text';
-    padding: 40px;
-    min-height: auto;
-    column-gap: 103px;
-  }
+.about img {
+  grid-area: image;
+  max-width: 100%;
+  border-radius: 30px;
+}
 
-  img {
-    grid-area: image;
-    max-width: 100%;
-    border-radius: 30px;
-  }
+.about img + div {
+  grid-area: text;
+}
 
-  img + div {
-    grid-area: text;
-  }
+.about h3 {
+  margin: 41px 0 0;
+}
 
-  h3 {
-    margin: 41px 0 0;
-  }
+.about p {
+  font-size: 19px;
+}
 
-  p {
-    font-size: 19px;
-  }
+.about > div {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'image text';
+  padding: 40px;
+  min-height: auto;
+  column-gap: 103px;
 }
 
 @media screen and (max-width: 800px) {
