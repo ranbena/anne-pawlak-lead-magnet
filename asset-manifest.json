@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anne-pawlak-landing/static/css/main.5b3b1ad6.css",
-    "main.js": "/anne-pawlak-landing/static/js/main.35c2c2d5.js",
-    "static/media/starry.jpg": "/anne-pawlak-landing/static/media/starry.40af977fea9ca1cf7c41.jpg",
-    "static/media/visual.png": "/anne-pawlak-landing/static/media/visual.073db69ca45c77589de1.png",
+    "main.css": "/anne-pawlak-landing/static/css/main.4a4c8d67.css",
+    "main.js": "/anne-pawlak-landing/static/js/main.303f9117.js",
+    "static/media/anne.png": "/anne-pawlak-landing/static/media/anne.9324cad0583e1ea07866.png",
+    "static/media/visual.png": "/anne-pawlak-landing/static/media/visual.0f29b7130aaff715748e.png",
     "index.html": "/anne-pawlak-landing/index.html",
-    "main.5b3b1ad6.css.map": "/anne-pawlak-landing/static/css/main.5b3b1ad6.css.map",
-    "main.35c2c2d5.js.map": "/anne-pawlak-landing/static/js/main.35c2c2d5.js.map"
+    "main.4a4c8d67.css.map": "/anne-pawlak-landing/static/css/main.4a4c8d67.css.map",
+    "main.303f9117.js.map": "/anne-pawlak-landing/static/js/main.303f9117.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b3b1ad6.css",
-    "static/js/main.35c2c2d5.js"
+    "static/css/main.4a4c8d67.css",
+    "static/js/main.303f9117.js"
   ]
 }
