@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/anne-pawlak-landing/static/css/main.b842ff81.css",
-    "main.js": "/anne-pawlak-landing/static/js/main.303f9117.js",
-    "static/media/anne.png": "/anne-pawlak-landing/static/media/anne.9324cad0583e1ea07866.png",
-    "static/media/visual.png": "/anne-pawlak-landing/static/media/visual.0f29b7130aaff715748e.png",
-    "index.html": "/anne-pawlak-landing/index.html",
-    "main.b842ff81.css.map": "/anne-pawlak-landing/static/css/main.b842ff81.css.map",
-    "main.303f9117.js.map": "/anne-pawlak-landing/static/js/main.303f9117.js.map"
+    "main.css": "/anne-pawlak-lead-magnet/static/css/main.2448617a.css",
+    "main.js": "/anne-pawlak-lead-magnet/static/js/main.25dd1073.js",
+    "static/media/anne.png": "/anne-pawlak-lead-magnet/static/media/anne.9324cad0583e1ea07866.png",
+    "static/media/visual.png": "/anne-pawlak-lead-magnet/static/media/visual.0f29b7130aaff715748e.png",
+    "index.html": "/anne-pawlak-lead-magnet/index.html",
+    "main.2448617a.css.map": "/anne-pawlak-lead-magnet/static/css/main.2448617a.css.map",
+    "main.25dd1073.js.map": "/anne-pawlak-lead-magnet/static/js/main.25dd1073.js.map"
   },
   "entrypoints": [
-    "static/css/main.b842ff81.css",
-    "static/js/main.303f9117.js"
+    "static/css/main.2448617a.css",
+    "static/js/main.25dd1073.js"
   ]
 }
