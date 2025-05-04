@@ -87,7 +87,7 @@ function App() {
       </section>
       <section className="about">
         <div>
-          <img src={AnneImage} alt="Anne Pawlak" />
+          <img src={AnneImage} alt="Anne Pawlak" loading="lazy" />
           <div>
             <h3>
               Hi,
